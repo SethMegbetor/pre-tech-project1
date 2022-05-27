@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(190, 180, 180);
+}
+
+a{
+  text-decoration: none;
+}
+
+/* code for the navbar */
+#navbar{
+  background: #fff;
+  color: orange;
+  top: 0;
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul li a{
+  color: blue;
+  padding: 0.75rem;
+  margin: 0 0.2rem;
+}
+
+#navbar ul li a:hover{
+  background: #93cb52;
+  border-radius: 5px;
+}
+
+/* css code for the header showcase */
+#showcase{
+  background: url("../img/img1.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .show-content{
+  display: flex; 
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  padding: 0 2rem;
+
+  /* overlay */
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.l-leading{
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.lead{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn{
+  text-align: center;
+  margin: 0 auto;
+  display: inline-block;
+  color: #fff;
+  background: orange;
+  padding: 0.5rem 2rem;
+  width: 160px;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover{
+  background: blue;
+}
