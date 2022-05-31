@@ -14,7 +14,9 @@
   </head>
   <body>
     <nav id="navbar">
-      <h1 class="logo"><span>Mawu</span>Found</h1>
+      <h1 class="logo">
+        <span class="text-primary"> <i class="fa-solid fa-handshake-angle"></i> Mawu</span>Found
+      </h1>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#what">What</a></li>
@@ -26,7 +28,7 @@
     <!-- code for header showcase -->
     <header id="showcase">
       <div class="show-content">
-        <h1 class="l-leading">Helping people help themselves</h1>
+        <h1 class="l-heading">Helping people help themselves</h1>
         <p class="lead">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde,
           accusamus consequuntur. Dolorem ut asperiores sit. Libero earum odio
@@ -39,7 +41,7 @@
     <!-- what we do section -->
     <section id="what" class="bg-light py-1">
       <div class="container">
-        <h2><span>what</span> we do</h2>
+        <h2 class="m-heading text-center"><span class="text-primary">what</span> we do</h2>
         <div class="items">
           <div class="item">
             <i class="fa-solid fa-graduation-cap fa-2x"></i>
@@ -83,30 +85,81 @@
       <div class="who-text bg-dark p-2">
         <h2 class="m-heading"><span class="text-primary">Who </span> We Are</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas autimpedit sequi numquam ullam voluptatibus.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+          autimpedit sequi numquam ullam voluptatibus.
         </p>
         <h3>Our Team</h3>
         <ul class="list">
-          <li>Paschaline Deladem: CE0</li> 
+          <li>Paschaline Deladem: CE0</li>
           <li>Alex Asor: Director</li>
           <li>Spider Hussle: Project Manager</li>
           <li>Spider Hussle: Secretary</li>
           <li>Spider Hussle: Accountant</li>
         </ul>
-      </div> 
-    </section> 
+      </div>
+    </section>
     <!-- Clients -->
     <section id="clients" class="py-1">
       <div class="container">
-        <h2><span>Our </span>Clients</h2>
+        <h2 class="m-heading text-center"><span  class="text-primary">Our </span>Clients</h2>
         <div class="items py-1">
-          <div><img src="./img/logo/imgg1.png" alt=""></div>
-          <div><img src="./img/logo/imgg2.png" alt=""></div>
-          <div><img src="./img/logo/imgg3.png" alt=""></div>
-          <div><img src="./img/logo/imgg4.png" alt=""></div>
-          <div><img src="./img/logo/imgg5.png" alt=""></div>
+          <div><img src="./img/logo/imgg1.png" alt="" /></div>
+          <div><img src="./img/logo/imgg2.png" alt="" /></div>
+          <div><img src="./img/logo/imgg3.png" alt="" /></div>
+          <div><img src="./img/logo/imgg4.png" alt="" /></div>
+          <div><img src="./img/logo/imgg5.png" alt="" /></div>
         </div>
       </div>
     </section>
+
+    <!-- contact section  -->
+    <section id="contact">
+      <div class="contact-form bg-primary p-2">
+        <h2 class="m-heading">Contact Us</h2>
+        <p>Please use the form below to contact us</p>
+        <form action="">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone number</label>
+            <input
+              type="phone"
+              class="form-control"
+              id="phone"
+              placeholder="Enter your phone number"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <input type="submit" value="Send" class="btn btn-dark" />
+        </form>
+      </div>
+    </section>
   </body>
-</html> 
+</html>
