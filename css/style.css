@@ -26,6 +26,7 @@ p {
   background: #fff;
   color: orange;
   top: 0;
+
   position: sticky;
   display: flex;
   justify-content: space-between;
@@ -239,3 +240,17 @@ ul {
 .p-center{
   text-align: center;
 }
+
+footer{
+  background: #541690;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+}
+
+footer p{
+  text-align: center;
+padding-top: 7px;
+}
+
+/*  */
